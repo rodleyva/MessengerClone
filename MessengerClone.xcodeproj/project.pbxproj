@@ -13,6 +13,7 @@
 		50B7D116272A86730075AB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7D114272A86730075AB1D /* Main.storyboard */; };
 		50B7D118272A86790075AB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B7D117272A86790075AB1D /* Assets.xcassets */; };
 		50B7D11B272A86790075AB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B7D119272A86790075AB1D /* LaunchScreen.storyboard */; };
+		50B7D123272A871A0075AB1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B7D122272A871A0075AB1D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50B7D117272A86790075AB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B7D11A272A86790075AB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B7D11C272A86790075AB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B7D122272A871A0075AB1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				50B7D117272A86790075AB1D /* Assets.xcassets */,
 				50B7D119272A86790075AB1D /* LaunchScreen.storyboard */,
 				50B7D11C272A86790075AB1D /* Info.plist */,
+				50B7D122272A871A0075AB1D /* GoogleService-Info.plist */,
 			);
 			path = MessengerClone;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B7D123272A871A0075AB1D /* GoogleService-Info.plist in Resources */,
 				50B7D11B272A86790075AB1D /* LaunchScreen.storyboard in Resources */,
 				50B7D118272A86790075AB1D /* Assets.xcassets in Resources */,
 				50B7D116272A86730075AB1D /* Main.storyboard in Resources */,
