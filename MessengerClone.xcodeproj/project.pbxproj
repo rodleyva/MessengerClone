@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508629A227311BE9006C6DCC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 508629A127311BE9006C6DCC /* IQKeyboardManagerSwift */; };
+		508629A427314BE2006C6DCC /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508629A327314BE2006C6DCC /* DatabaseManager.swift */; };
 		50B7D10F272A86730075AB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7D10E272A86730075AB1D /* AppDelegate.swift */; };
 		50B7D111272A86730075AB1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7D110272A86730075AB1D /* SceneDelegate.swift */; };
 		50B7D113272A86730075AB1D /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B7D112272A86730075AB1D /* ConversationVC.swift */; };
@@ -30,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		508629A327314BE2006C6DCC /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		50B7D10B272A86730075AB1D /* MessengerClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B7D10E272A86730075AB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B7D110272A86730075AB1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 				50B7D140272A8D060075AB1D /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				50B7D138272A8D060075AB1D /* FirebaseAuth in Frameworks */,
 				50B7D13A272A8D060075AB1D /* FirebaseDatabase in Frameworks */,
+				508629A227311BE9006C6DCC /* IQKeyboardManagerSwift in Frameworks */,
 				50B7D144272A8D060075AB1D /* FirebaseStorageSwift-Beta in Frameworks */,
 				50B7D142272A8D060075AB1D /* FirebaseStorage in Frameworks */,
 				50B7D134272A8D060075AB1D /* FirebaseAnalytics in Frameworks */,
@@ -88,6 +92,7 @@
 				50B7D131272A8C430075AB1D /* Models */,
 				50B7D130272A8C340075AB1D /* Views */,
 				50B7D12E272A8C090075AB1D /* Controllers */,
+				508629A327314BE2006C6DCC /* DatabaseManager.swift */,
 				50B7D117272A86790075AB1D /* Assets.xcassets */,
 				50B7D11C272A86790075AB1D /* Info.plist */,
 				50B7D122272A871A0075AB1D /* GoogleService-Info.plist */,
@@ -166,6 +171,7 @@
 				50B7D13F272A8D060075AB1D /* FirebaseFirestoreSwift-Beta */,
 				50B7D141272A8D060075AB1D /* FirebaseStorage */,
 				50B7D143272A8D060075AB1D /* FirebaseStorageSwift-Beta */,
+				508629A127311BE9006C6DCC /* IQKeyboardManagerSwift */,
 			);
 			productName = MessengerClone;
 			productReference = 50B7D10B272A86730075AB1D /* MessengerClone.app */;
@@ -197,6 +203,7 @@
 			mainGroup = 50B7D102272A86730075AB1D;
 			packageReferences = (
 				50B7D132272A8D060075AB1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				508629A027311BE9006C6DCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 50B7D10C272A86730075AB1D /* Products */;
 			projectDirPath = "";
@@ -226,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508629A427314BE2006C6DCC /* DatabaseManager.swift in Sources */,
 				50B7D129272A8BB70075AB1D /* NewConversationVC.swift in Sources */,
 				50B7D113272A86730075AB1D /* ConversationVC.swift in Sources */,
 				50B7D12B272A8BC80075AB1D /* ProfileVC.swift in Sources */,
@@ -454,6 +462,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		508629A027311BE9006C6DCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 		50B7D132272A8D060075AB1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -465,6 +481,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		508629A127311BE9006C6DCC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 508629A027311BE9006C6DCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
 		50B7D133272A8D060075AB1D /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 50B7D132272A8D060075AB1D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

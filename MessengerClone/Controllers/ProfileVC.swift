@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ProfileVC: UIViewController {
 
@@ -15,7 +16,8 @@ class ProfileVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    
     /*
     // MARK: - Navigation
 
